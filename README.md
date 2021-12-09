@@ -5,37 +5,11 @@
 	<p>A good tool for setting up marketplace web applications</p>
 </div>
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#setting-up">Setting Up</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-BlockCommerce provides a set of products which are secured by blockchain and smart contract to build, manage and test every working aspects and develop marketplaces using Ethereum.
+BlockCommerce offers a blockchain-secured product with smart contracts to build, manage and test every working aspects of developing Ethereum-based marketplace projects.
 ### Built with
-* [Ehtereum](https://ethereum.org/en/)
+* [Ethereum](https://ethereum.org/en/)
 * [Solidity](https://docs.soliditylang.org/en/v0.8.10/)
 * [Web3js](https://web3js.readthedocs.io/en/v1.5.2/)
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -57,3 +31,12 @@ Use the package manager [npm](https://docs.npmjs.com/) to install.
 ```
   npm install block-commerce-contract
 ```
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- FEATURES -->
+## Features
+Below are what BlockCommerce will provide for you:
+- Contract: A smart library contract consists of a contract that creates, stores the NFT and a contract that serves its role as a marketplace for selling and exchanging NFTs. These contracts can be reused, secured and stored on blockchain, and are written by Solidity. Besides, all the functions are authorized according to the account's role. 
+- Upgradable contract: A set of contract and tool is used for creating and managing contracts, it allows for the separation of upgradeable contracts on Ethereum.
+- Lazy minting: Advanced feature, this helps the seller not to pay any fee from the time a product is created to the time it is sold. The fee in the end will be paid by the end user.
+- Authorization: Advanced feature, this helps both the seller and buyer can controll the contract by themselves and execute it as they wished, instead of the inherent automatic execution of the contract.
