@@ -7,7 +7,8 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-BlockCommerce offers a blockchain-secured product with smart contracts to build, manage and test every working aspects of developing Ethereum-based marketplace projects.
+Provide you with a package secured by Blockchain and Smart Contract to build, manage and revise all aspects between bulding and developing software for Ethereum-based marketplace projects.
+
 ### Built with
 * [Ethereum](https://ethereum.org/en/)
 * [Solidity](https://docs.soliditylang.org/en/v0.8.10/)
@@ -101,11 +102,20 @@ Some functions are currently availble:
 - Approve an offer.
 - Buy a product with ETH or other currency (currently Dollar).
 
+<div align="center">
+	<img src="https://i.ibb.co/6rZL0j9/Block-Commerce-Logo-homepage.png" alt="BlockCommerce Homepage" border="0">
+</div>
+
+
 <!-- Contributors -->
 ## Contributors
-We wish to give a big thank you to our contributors for building this project together and bringing it to you.
+We wish to give a big thanks to our contributors for building this project together and bringing it to you.
 - [Mai Nguyen Duc Tho](https://github.com/Thomg102)
 - [Tuong Thanh Long](https://github.com/longtuongthanh)
 - [Nguyen Phuc Long](https://github.com/Sportaholic-21)
 - [Truong Thi Y Lan](https://github.com/ylantt)
 - [Phan Hoang Dung](https://github.com/PhanHoangDung)
+
+<!-- LICENSE -->
+## License
+Distributed under MIT license. See `LICENSE.txt` for more infomation.
