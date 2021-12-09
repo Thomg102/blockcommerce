@@ -13,7 +13,7 @@ Provide you with a package secured by Blockchain and Smart Contract to build, ma
 * [Ethereum](https://ethereum.org/en/)
 * [Solidity](https://docs.soliditylang.org/en/v0.8.10/)
 * [Web3js](https://web3js.readthedocs.io/en/v1.5.2/)
-<p align="right">(<a href="#top">back to top</a>)</p>
+<!-- <p align="right">(<a href="#top">back to top</a>)</p> -->
 
 ## Setting Up
 This section is all about relevant softwares, extensions and how to install this package.
@@ -32,7 +32,6 @@ Use the package manager [npm](https://docs.npmjs.com/) to install.
 ```
   npm install block-commerce-contract
 ```
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- FEATURES -->
 ## Features
