@@ -40,3 +40,72 @@ Below are what BlockCommerce will provide for you:
 - Upgradable contract: A set of contract and tool is used for creating and managing contracts, it allows for the separation of upgradeable contracts on Ethereum.
 - Lazy minting: Advanced feature, this helps the seller not to pay any fee from the time a product is created to the time it is sold. The fee in the end will be paid by the end user.
 - Authorization: Advanced feature, this helps both the seller and buyer can controll the contract by themselves and execute it as they wished, instead of the inherent automatic execution of the contract.
+
+<!-- Example -->
+## Example
+These are some code snippets to help you have a better understand what block-commerce-contract can do.
+- Generate a NFT with the recipient's address _to be obtained from the _hash of the artwork
+```
+createNewNFT(_to, string _hash){
+	// Your code here
+}
+```
+- Reset the owner rights for a _to address with the _tokenId token you want to transfer, this function is only called by the owner of _tokenId.
+```
+setOwnerToTokenId(_to, _tokenId){
+	// Your code here
+}
+```
+- Create a new product for selling with with hashed information (_hashInfo), hashed image (_hashImg), and the desired price (_price) for this product
+```
+createNewProduct(_hashInfo, _hashImg,  _price){
+	// Your code here
+}
+```
+- Buy the product with ETH cryptocurrency
+```
+buyWithETH(_tokenId){
+	// Your code here
+}
+```
+- Buy the product with dollar currency
+```
+buyWithCurrency(_tokenId, transactionId){
+	// Your code here
+}
+```
+- Create an offer for a product has id (_tokenId), with quantity of _amount, token ERC20 (_token20) as you wish, and the desired price (_price) for this product
+```
+offer(_tokenId, _amount, _token20, _timeout){
+	// Your code here
+}
+```
+- Approve an offer
+```
+approveOffer(_tokenId, _index){
+	// Your code here
+}
+```
+- Transfer owner after the offer was approved
+```
+Transfer(_tokenId, _oldOwner, _newOwner){
+	// Your code here
+}
+```
+<!-- Usage -->
+## Usage
+For better understanding on how to use block-commerce-contract for an Ethereum-based marketplace web application, you can go to [this website](https://blockcommerce.herokuapp.com/products).
+Some functions are currently availble:
+- Create a new product.
+- Create an offer.
+- Approve an offer.
+- Buy a product with ETH or other currency (currently Dollar).
+
+<!-- Contributors -->
+## Contributors
+We wish to give a big thank you to our contributors for building this project together and bringing it to you.
+- [Mai Nguyen Duc Tho](https://github.com/Thomg102)
+- [Tuong Thanh Long](https://github.com/longtuongthanh)
+- [Nguyen Phuc Long](https://github.com/Sportaholic-21)
+- [Truong Thi Y Lan](https://github.com/ylantt)
+- [Phan Hoang Dung](https://github.com/PhanHoangDung)
